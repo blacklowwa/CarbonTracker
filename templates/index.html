@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Carbon Calculator</title>
+        <link rel="stylesheet" href="/static/css/styles.css">
+    </head>
+    <body>
+        <h1>Рассчитай свой углеродный след</h1>
+        <form action="/calculate" method="post">
+            <label>Пробег на машине (км/неделю):</label>
+            <input type="number" name="car_distance" step="0.1" required>
+            <button type="submit">Рассчитать</button>
+        </form>
+    </body>
+</html>
